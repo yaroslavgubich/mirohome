@@ -1,13 +1,18 @@
 .
 ├── app
+│   ├── collado
+│   │   └── instructions
+│   │       └── page.tsx
 │   ├── favicon.ico
 │   ├── globals.css
 │   ├── layout.tsx
 │   └── page.tsx
 ├── eslint.config.mjs
 ├── .gitignore
+├── long_structure.txt
 ├── next.config.ts
 ├── next-env.d.ts
+├── notes.txt
 ├── package.json
 ├── pnpm-lock.yaml
 ├── postcss.config.mjs
@@ -18,8 +23,7 @@
 │   ├── vercel.svg
 │   └── window.svg
 ├── README.md
-├── readme.txt
 ├── short_structure.txt
 └── tsconfig.json
 
-2 directories, 20 files
+4 directories, 22 files
