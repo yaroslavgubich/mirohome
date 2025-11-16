@@ -1,0 +1,166 @@
+.
+├── app
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── clean_structure.txt
+├── eslint.config.mjs
+├── .git
+│   ├── branches
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   ├── feature
+│   │       │   ├── main
+│   │       │   └── master
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── feature
+│   │               ├── main
+│   │               └── master
+│   ├── objects
+│   │   ├── 00
+│   │   │   └── 4145cddf3f9db91b57b9cb596683c8eb420862
+│   │   ├── 05
+│   │   │   └── e726d1b4201bc8c7716d2b058279676582e8c0
+│   │   ├── 06
+│   │   │   └── 4997058626cd5f34d8133b335cfdd8c99d6b50
+│   │   ├── 0c
+│   │   │   └── 479e4d1416665fac13f95543b944f8b243227c
+│   │   ├── 0f
+│   │   │   └── 157d112134a4a843744699f35f5a50eb1031e3
+│   │   ├── 15
+│   │   │   └── 87603d0612f0787b28b472672b0c674a49bd90
+│   │   ├── 1a
+│   │   │   └── ae5bf8a0cd2afa7e8f12525e31ac948762f3a5
+│   │   ├── 24
+│   │   │   └── 508cd9e08e71ca0783afb9817c1855f776f500
+│   │   ├── 29
+│   │   │   └── 5f8fdf14fcfe6cccaa832133037157521b1890
+│   │   ├── 30
+│   │   │   └── 0082c465da2022556a86fb13eb4020db4b72e5
+│   │   ├── 3a
+│   │   │   └── 13f90a773b0facb675bf5b1a8239c8f33d36f5
+│   │   ├── 3d
+│   │   │   └── 37c3caf12fcdc37ff57a2663e37a9b5a164435
+│   │   ├── 4b
+│   │   │   └── 07806bd3878736edd3c074c9c7e3b22abf2397
+│   │   ├── 51
+│   │   │   └── 74b28c565c285e3e312ec5178be64fbeca8398
+│   │   ├── 56
+│   │   │   └── 7f17b0d7c7fb662c16d4357dd74830caf2dccb
+│   │   ├── 5e
+│   │   │   └── f6a520780202a1d6addd833d800ccb1ecac0bb
+│   │   ├── 61
+│   │   │   └── e36849cf7cfa9f1f71b4a3964a4953e3e243d3
+│   │   ├── 65
+│   │   │   └── 66aa39046fc6b6923d59fc9759ab40f7601619
+│   │   ├── 71
+│   │   │   └── 8d6fea4835ec2d246af9800eddb7ffb276240c
+│   │   ├── 77
+│   │   │   └── 053960334e2e34dc584dea8019925c3b4ccca9
+│   │   ├── 88
+│   │   │   └── f0cc9b5a22e3bd87bf067174dc70773ed99bbd
+│   │   ├── 8a
+│   │   │   ├── 44a76fe381c1e30b9f18694d0fc12d613af5e6
+│   │   │   └── d2fa8a96b6ad68855ce86c7f0fe159b31fcf05
+│   │   ├── 94
+│   │   │   └── 27251ca3fd3112a5018dbbeb9983e256995940
+│   │   ├── 99
+│   │   │   └── b259b9c8e176fb3de8133fb7f59a056b6d5f44
+│   │   ├── a2
+│   │   │   └── dc41ecee5ec435200fe7cba2bde4107f823774
+│   │   ├── a5
+│   │   │   └── aa515e37b5cdd7e140f2dce40cbc8baeb1ae9a
+│   │   ├── aa
+│   │   │   └── ad6f9e6e9b2262b043340091540f96d909e849
+│   │   ├── b2
+│   │   │   └── b2a44f6ebc70c450043c05a002e7a93ba5d651
+│   │   ├── b6
+│   │   │   └── 06215b5c51af59900d300697001a99ef6971c6
+│   │   ├── b9
+│   │   │   └── 9404f45320dffcec3b6e733a8d7dedf3bdd34e
+│   │   ├── c7
+│   │   │   └── bcb4b1ee14cd5e25078c2c934529afdd2a7df9
+│   │   ├── c8
+│   │   │   ├── 5fb67c463f20d1ee449b0ffee725a61dfb9259
+│   │   │   └── 8f389de09f418da376598c42e8788d4fb6d172
+│   │   ├── d2
+│   │   │   └── 7b8cf330f4c3ddb926b1f59a53320132b6f9d9
+│   │   ├── d8
+│   │   │   └── b93235f205efbea6e8fceb1c9ddb57ddddf28d
+│   │   ├── e2
+│   │   │   └── 15bc4ccf138bbc38ad58ad57e92135484b3c0f
+│   │   ├── e3
+│   │   │   └── 1a9cea287c998c5525862367a8f90f2cf95e0e
+│   │   ├── e9
+│   │   │   └── ffa3083ad279ecf95fd8eae59cb253e9a539c4
+│   │   ├── ea
+│   │   │   └── 786ff2cf69cdc0e487ad1cea3b8bd361eb66a3
+│   │   ├── ed
+│   │   │   └── 4582d28634e8f71088c79b8ccf36f5eaa91a12
+│   │   ├── f7
+│   │   │   └── fa87eb875260ed98651bc419c8139b5119e554
+│   │   ├── f9
+│   │   │   └── 804175aa6f245d97db71b711f81f752ef382cb
+│   │   ├── info
+│   │   └── pack
+│   ├── ORIG_HEAD
+│   └── refs
+│       ├── heads
+│       │   ├── feature
+│       │   ├── main
+│       │   └── master
+│       ├── remotes
+│       │   └── origin
+│       │       ├── feature
+│       │       ├── main
+│       │       └── master
+│       └── tags
+├── .gitignore
+├── long_structure.txt
+├── next.config.ts
+├── next-env.d.ts
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── public
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── README.md
+├── readme.txt
+├── short_structure.txt
+├── tsconfig.json
+└── .vercel
+    ├── cache
+    ├── project.json
+    └── README.txt
+
+62 directories, 101 files
