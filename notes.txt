@@ -22,3 +22,4 @@ added instructions page
 Moving to a previous commit. Removing a plug.
 
 
+made an update for secure version 
