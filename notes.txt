@@ -1,10 +1,25 @@
+                        TASKS                    
+
+
 added instructions page
 [] do I need to take template ? 
 [] how to make multi language instrucitons ? what is an easy way ? 
 [] how to doccument better to instantly find it ? 
+
+
+
+
+[] Push previous commit into production
+[] Embed a video 
 []
 []
 []
-[]
-[]
-[]
+[❌]
+
+
+                          Notes: 
+
+Moving to a previous commit. Removing a plug.
+
+
+made an update for secure version 
