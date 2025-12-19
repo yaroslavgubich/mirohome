@@ -30,4 +30,4 @@
 ├── short_structure.txt
 └── tsconfig.json
 
-7 directories, 23 files
+
