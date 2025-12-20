@@ -22,6 +22,19 @@ export default function Page() {
         <section className="">
           <h2 className="text-3xl font-bold mb-5 text-purple-400 border-b border-gray-700 pb-2">
             🌿 Miro Home Calado
+            <div className="mx-auto mt-6 w-full max-w-md">
+              <div className="rounded-xl overflow-hidden border border-gray-700 bg-black/40 shadow-xl">
+                <video
+                  src="https://v.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/lhkwxoxxycceelh9ztia.mp4"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
           </h2>
           <p className="text-lg font-semibold mb-8 italic text-gray-300">
             Designer-Lampe aus PLA mit Dimmer
